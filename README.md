@@ -1,4 +1,5 @@
 # UnityWater2D
+![타이틀](https://github.com/yunpu1004/UnityWater2D/assets/53960432/1662ccea-4072-4db2-a1d2-648d697f696b)
 
 <h4 align="left"><b>[Youtube]
 <h4 align="left"><b>[주요 구현 소개] 
@@ -10,5 +11,4 @@
 - **주의사항 :** 이 컴포넌트는 자체적으로 직사각형 모양의 메시를 생성하여 MeshFilter에 적용시킵니다. 
 
 ## 데모 버전 실행방법 
-첨부된 파일의 압축을 풀고, 폴더의 Unity Portfolio Water.exe를 실행하면 됩니다.
-하늘의 빈 공간을 클릭하면 박스가 생성되어 아래로 떨어지면서 물결파를 만들어냅니다.
+첨부된 파일의 압축을 풀고, 폴더의 Unity Portfolio Water.exe를 실행합니다.
