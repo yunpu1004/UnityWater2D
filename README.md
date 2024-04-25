@@ -1,8 +1,8 @@
 # UnityWater2D
 ![타이틀](https://github.com/yunpu1004/UnityWater2D/assets/53960432/1662ccea-4072-4db2-a1d2-648d697f696b)
 
-<h4 align="left"><b>[Youtube]
-<h4 align="left"><b>[주요 구현 소개] 
+<h4 align="left"><b>[Youtube](https://www.youtube.com/watch?v=aFwnGOZ9ghU)
+<h4 align="left"><b>[주요 구현 소개]<br>[Google Drive](https://drive.google.com/file/d/14VWwOH94SqxWlL_LLgCYmmBwDySPN2nA/view?usp=sharing)<br>[네이버 MyBox](http://naver.me/GABfw37V)</b></h1> 
 
 ## 포트폴리오 개요
 - **개발자 :** 홍윤표
