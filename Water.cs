@@ -139,7 +139,7 @@ public class Water : MonoBehaviour
         if(_width < 0.01f) _width = 0.1f;
         if(_height < 0.01f) _height = 0.1f;
         if(_quality < 100) _quality = 100;
-        if(!IsMeshCreationNeeded()) return;
+        if(!IsMeshUpdateNeeded()) return;
         
         UpdateMesh();
         col.size = new Vector2(_width, _height);
