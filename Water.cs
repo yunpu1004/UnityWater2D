@@ -78,7 +78,7 @@ public class Water : MonoBehaviour
         if(meshRenderer == null) meshRenderer = GetComponent<MeshRenderer>();
         if(col == null) col = GetComponent<BoxCollider2D>();
         col.isTrigger = true;
-        if(IsMeshCreationNeeded()) UpdateMesh();
+        if(IsMeshUpdateNeeded()) UpdateMesh();
     }
 
     // 물체가 활성화 될때, 버텍스를 초기화합니다.
@@ -147,9 +147,9 @@ public class Water : MonoBehaviour
 #endif
 
     
-    // 메시가 생성 될 필요가 있는지 확인합니다.
+    // 메시가 업데이트 될 필요가 있는지 확인합니다.
     // 메시의 정점 갯수와, 폭 그리고 높이가 현재 설정된 값과 다른지 확인합니다.
-    private bool IsMeshCreationNeeded()
+    private bool IsMeshUpdateNeeded()
     {
         if(meshFilter.sharedMesh.vertexCount != (_quality + 1) * 2) return true;
         var bounds = meshFilter.sharedMesh.bounds;
