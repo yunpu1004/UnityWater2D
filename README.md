@@ -11,4 +11,4 @@
 - **주의사항 :** 이 컴포넌트는 자체적으로 직사각형 모양의 메시를 생성하여 MeshFilter에 적용시킵니다. 
 
 ## 데모 버전 실행방법 
-첨부된 파일의 압축을 풀고, 폴더의 Unity Portfolio Water.exe를 실행합니다.
+첨부된 Build.zip 파일의 압축을 풀고, 폴더의 Unity Portfolio Water.exe를 실행합니다.
